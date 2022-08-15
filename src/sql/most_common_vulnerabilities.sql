@@ -1,0 +1,1 @@
+SELECT project, cve_id, COUNT(cve_id) as qtd FROM dados GROUP BY project, cve_id ORDER BY qtd DESC limit 5;
